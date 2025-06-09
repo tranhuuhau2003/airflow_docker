@@ -247,3 +247,38 @@
 [2025-06-09T10:57:11.142+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:11.141+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-09T10:57:11.161+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:11.161+0000] {dag.py:3954} INFO - Setting next_dagrun for NetSuite_22to24_Daily_ToWarehouse_F98 to 2025-06-08T22:00:00+00:00, run_after=2025-06-09T22:00:00+00:00
 [2025-06-09T10:57:11.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_netsuite_22to24.py took 0.832 seconds
+[2025-06-09T10:57:41.427+0000] {processor.py:161} INFO - Started process (PID=7162) to work on /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:57:41.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_netsuite_22to24.py for tasks to queue
+[2025-06-09T10:57:41.430+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:41.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:57:42.040+0000] {processor.py:840} INFO - DAG(s) 'NetSuite_22to24_Daily_ToWarehouse_F98' retrieved from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:57:42.077+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:42.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:57:42.128+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:42.128+0000] {dag.py:3954} INFO - Setting next_dagrun for NetSuite_22to24_Daily_ToWarehouse_F98 to 2025-06-08T22:00:00+00:00, run_after=2025-06-09T22:00:00+00:00
+[2025-06-09T10:57:42.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_netsuite_22to24.py took 0.790 seconds
+[2025-06-09T10:58:12.546+0000] {processor.py:161} INFO - Started process (PID=7201) to work on /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:58:12.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_netsuite_22to24.py for tasks to queue
+[2025-06-09T10:58:12.548+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:12.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:58:13.260+0000] {processor.py:840} INFO - DAG(s) 'NetSuite_22to24_Daily_ToWarehouse_F98' retrieved from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:58:13.283+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:13.282+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:58:13.303+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:13.303+0000] {dag.py:3954} INFO - Setting next_dagrun for NetSuite_22to24_Daily_ToWarehouse_F98 to 2025-06-08T22:00:00+00:00, run_after=2025-06-09T22:00:00+00:00
+[2025-06-09T10:58:13.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_netsuite_22to24.py took 0.786 seconds
+[2025-06-09T10:58:43.540+0000] {processor.py:161} INFO - Started process (PID=7240) to work on /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:58:43.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_netsuite_22to24.py for tasks to queue
+[2025-06-09T10:58:43.542+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:43.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:58:44.152+0000] {processor.py:840} INFO - DAG(s) 'NetSuite_22to24_Daily_ToWarehouse_F98' retrieved from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:58:44.179+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:44.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:58:44.200+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:44.200+0000] {dag.py:3954} INFO - Setting next_dagrun for NetSuite_22to24_Daily_ToWarehouse_F98 to 2025-06-08T22:00:00+00:00, run_after=2025-06-09T22:00:00+00:00
+[2025-06-09T10:58:44.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_netsuite_22to24.py took 0.693 seconds
+[2025-06-09T10:59:22.785+0000] {processor.py:161} INFO - Started process (PID=7279) to work on /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:59:22.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_netsuite_22to24.py for tasks to queue
+[2025-06-09T10:59:22.787+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:22.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:59:24.270+0000] {processor.py:840} INFO - DAG(s) 'NetSuite_22to24_Daily_ToWarehouse_F98' retrieved from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:59:24.511+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:24.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:59:24.572+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:24.572+0000] {dag.py:3954} INFO - Setting next_dagrun for NetSuite_22to24_Daily_ToWarehouse_F98 to 2025-06-08T22:00:00+00:00, run_after=2025-06-09T22:00:00+00:00
+[2025-06-09T10:59:24.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_netsuite_22to24.py took 1.816 seconds
+[2025-06-09T10:59:54.930+0000] {processor.py:161} INFO - Started process (PID=7318) to work on /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:59:54.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_netsuite_22to24.py for tasks to queue
+[2025-06-09T10:59:54.934+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:54.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:59:56.081+0000] {processor.py:840} INFO - DAG(s) 'NetSuite_22to24_Daily_ToWarehouse_F98' retrieved from /opt/airflow/dags/dag_netsuite_22to24.py
+[2025-06-09T10:59:56.106+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:56.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:59:56.137+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:56.137+0000] {dag.py:3954} INFO - Setting next_dagrun for NetSuite_22to24_Daily_ToWarehouse_F98 to 2025-06-08T22:00:00+00:00, run_after=2025-06-09T22:00:00+00:00
+[2025-06-09T10:59:56.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_netsuite_22to24.py took 1.234 seconds

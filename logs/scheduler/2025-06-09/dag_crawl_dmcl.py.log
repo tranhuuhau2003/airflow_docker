@@ -6452,3 +6452,38 @@
 [2025-06-09T10:57:08.767+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:08.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-09T10:57:08.778+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:08.777+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dmcl_tara_dag to None, run_after=None
 [2025-06-09T10:57:08.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl.py took 0.679 seconds
+[2025-06-09T10:57:39.237+0000] {processor.py:161} INFO - Started process (PID=7150) to work on /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:57:39.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl.py for tasks to queue
+[2025-06-09T10:57:39.241+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:39.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:57:39.869+0000] {processor.py:840} INFO - DAG(s) 'crawl_dmcl_tara_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:57:39.898+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:39.897+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:57:39.908+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:39.908+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dmcl_tara_dag to None, run_after=None
+[2025-06-09T10:57:39.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl.py took 0.723 seconds
+[2025-06-09T10:58:10.183+0000] {processor.py:161} INFO - Started process (PID=7190) to work on /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:58:10.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl.py for tasks to queue
+[2025-06-09T10:58:10.186+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:10.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:58:10.864+0000] {processor.py:840} INFO - DAG(s) 'crawl_dmcl_tara_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:58:10.899+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:10.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:58:10.921+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:10.920+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dmcl_tara_dag to None, run_after=None
+[2025-06-09T10:58:10.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl.py took 0.784 seconds
+[2025-06-09T10:58:41.673+0000] {processor.py:161} INFO - Started process (PID=7230) to work on /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:58:41.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl.py for tasks to queue
+[2025-06-09T10:58:41.675+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:41.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:58:42.400+0000] {processor.py:840} INFO - DAG(s) 'crawl_dmcl_tara_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:58:42.426+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:42.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:58:42.443+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:42.443+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dmcl_tara_dag to None, run_after=None
+[2025-06-09T10:58:42.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl.py took 0.802 seconds
+[2025-06-09T10:59:20.428+0000] {processor.py:161} INFO - Started process (PID=7269) to work on /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:59:20.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl.py for tasks to queue
+[2025-06-09T10:59:20.450+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:20.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:59:22.726+0000] {processor.py:840} INFO - DAG(s) 'crawl_dmcl_tara_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:59:22.767+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:22.766+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:59:22.777+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:22.777+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dmcl_tara_dag to None, run_after=None
+[2025-06-09T10:59:22.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl.py took 2.429 seconds
+[2025-06-09T10:59:53.246+0000] {processor.py:161} INFO - Started process (PID=7308) to work on /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:59:53.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl.py for tasks to queue
+[2025-06-09T10:59:53.247+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:53.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:59:53.860+0000] {processor.py:840} INFO - DAG(s) 'crawl_dmcl_tara_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl.py
+[2025-06-09T10:59:53.885+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:53.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:59:53.895+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:53.895+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dmcl_tara_dag to None, run_after=None
+[2025-06-09T10:59:53.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl.py took 0.673 seconds

@@ -6445,3 +6445,38 @@
 [2025-06-09T10:57:09.206+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:09.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-09T10:57:09.218+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:09.218+0000] {dag.py:3954} INFO - Setting next_dagrun for excel_to_postgres_test_data_dag to None, run_after=None
 [2025-06-09T10:57:09.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/excel_to_postgres_test_data_dag.py took 0.666 seconds
+[2025-06-09T10:57:39.773+0000] {processor.py:161} INFO - Started process (PID=7157) to work on /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:57:39.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/excel_to_postgres_test_data_dag.py for tasks to queue
+[2025-06-09T10:57:39.775+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:39.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:57:40.313+0000] {processor.py:840} INFO - DAG(s) 'excel_to_postgres_test_data_dag' retrieved from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:57:40.337+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:40.336+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:57:40.347+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:57:40.347+0000] {dag.py:3954} INFO - Setting next_dagrun for excel_to_postgres_test_data_dag to None, run_after=None
+[2025-06-09T10:57:40.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/excel_to_postgres_test_data_dag.py took 0.600 seconds
+[2025-06-09T10:58:10.676+0000] {processor.py:161} INFO - Started process (PID=7196) to work on /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:58:10.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/excel_to_postgres_test_data_dag.py for tasks to queue
+[2025-06-09T10:58:10.678+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:10.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:58:11.374+0000] {processor.py:840} INFO - DAG(s) 'excel_to_postgres_test_data_dag' retrieved from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:58:11.397+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:11.396+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:58:11.408+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:11.408+0000] {dag.py:3954} INFO - Setting next_dagrun for excel_to_postgres_test_data_dag to None, run_after=None
+[2025-06-09T10:58:11.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/excel_to_postgres_test_data_dag.py took 0.758 seconds
+[2025-06-09T10:58:41.762+0000] {processor.py:161} INFO - Started process (PID=7231) to work on /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:58:41.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/excel_to_postgres_test_data_dag.py for tasks to queue
+[2025-06-09T10:58:41.764+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:41.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:58:42.481+0000] {processor.py:840} INFO - DAG(s) 'excel_to_postgres_test_data_dag' retrieved from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:58:42.506+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:42.506+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:58:42.518+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:58:42.518+0000] {dag.py:3954} INFO - Setting next_dagrun for excel_to_postgres_test_data_dag to None, run_after=None
+[2025-06-09T10:58:42.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/excel_to_postgres_test_data_dag.py took 0.778 seconds
+[2025-06-09T10:59:21.128+0000] {processor.py:161} INFO - Started process (PID=7270) to work on /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:59:21.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/excel_to_postgres_test_data_dag.py for tasks to queue
+[2025-06-09T10:59:21.168+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:21.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:59:22.649+0000] {processor.py:840} INFO - DAG(s) 'excel_to_postgres_test_data_dag' retrieved from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:59:22.689+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:22.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:59:22.708+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:22.708+0000] {dag.py:3954} INFO - Setting next_dagrun for excel_to_postgres_test_data_dag to None, run_after=None
+[2025-06-09T10:59:22.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/excel_to_postgres_test_data_dag.py took 1.642 seconds
+[2025-06-09T10:59:53.256+0000] {processor.py:161} INFO - Started process (PID=7309) to work on /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:59:53.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/excel_to_postgres_test_data_dag.py for tasks to queue
+[2025-06-09T10:59:53.258+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:53.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:59:53.796+0000] {processor.py:840} INFO - DAG(s) 'excel_to_postgres_test_data_dag' retrieved from /opt/airflow/dags/excel_to_postgres_test_data_dag.py
+[2025-06-09T10:59:53.824+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:53.824+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T10:59:53.835+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:53.835+0000] {dag.py:3954} INFO - Setting next_dagrun for excel_to_postgres_test_data_dag to None, run_after=None
+[2025-06-09T10:59:53.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/excel_to_postgres_test_data_dag.py took 0.608 seconds
