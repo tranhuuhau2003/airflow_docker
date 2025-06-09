@@ -1,0 +1,456 @@
+[2025-06-09T02:17:34.819+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:17:34.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:17:34.822+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:17:34.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:17:35.346+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:17:35.524+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:17:35.523+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:crawl_and_upload_dmcl_dag
+[2025-06-09T02:17:35.534+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:17:35.534+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:crawl_and_upload_dmcl_dag
+[2025-06-09T02:17:35.541+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:17:35.540+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:crawl_and_upload_dmcl_dag
+[2025-06-09T02:17:35.541+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:17:35.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:17:35.551+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:17:35.550+0000] {dag.py:3118} INFO - Creating ORM DAG for crawl_and_upload_dmcl_dag
+[2025-06-09T02:17:35.551+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:17:35.551+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:17:35.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.779 seconds
+[2025-06-09T02:18:06.177+0000] {processor.py:161} INFO - Started process (PID=736) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:18:06.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:18:06.180+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:18:06.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:18:06.767+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:18:06.792+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:18:06.792+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:18:06.802+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:18:06.802+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:18:06.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.651 seconds
+[2025-06-09T02:18:37.786+0000] {processor.py:161} INFO - Started process (PID=759) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:18:37.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:18:37.789+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:18:37.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:18:38.324+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:18:38.346+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:18:38.346+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:18:38.356+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:18:38.356+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:18:38.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.594 seconds
+[2025-06-09T02:19:09.210+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:19:09.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:19:09.213+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:19:09.213+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:19:09.779+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:19:09.802+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:19:09.802+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:19:09.812+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:19:09.812+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:19:09.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.627 seconds
+[2025-06-09T02:19:40.414+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:19:40.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:19:40.417+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:19:40.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:19:40.999+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:19:41.024+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:19:41.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:19:41.034+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:19:41.034+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:19:41.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.645 seconds
+[2025-06-09T02:20:11.847+0000] {processor.py:161} INFO - Started process (PID=828) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:20:11.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:20:11.850+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:20:11.849+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:20:12.610+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:20:12.634+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:20:12.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:20:12.644+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:20:12.644+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:20:12.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.828 seconds
+[2025-06-09T02:20:43.615+0000] {processor.py:161} INFO - Started process (PID=851) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:20:43.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:20:43.618+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:20:43.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:20:44.180+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:20:44.212+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:20:44.211+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:20:44.233+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:20:44.233+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:20:44.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.651 seconds
+[2025-06-09T02:21:14.346+0000] {processor.py:161} INFO - Started process (PID=874) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:21:14.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:21:14.349+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:21:14.349+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:21:14.936+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:21:14.964+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:21:14.963+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:21:14.974+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:21:14.974+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:21:14.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.656 seconds
+[2025-06-09T02:21:45.739+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:21:45.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:21:45.742+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:21:45.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:21:46.275+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:21:46.298+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:21:46.297+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:21:46.307+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:21:46.307+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:21:46.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.598 seconds
+[2025-06-09T02:22:17.031+0000] {processor.py:161} INFO - Started process (PID=920) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:22:17.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:22:17.033+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:22:17.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:22:17.785+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:22:17.809+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:22:17.808+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:22:17.819+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:22:17.819+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:22:17.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.813 seconds
+[2025-06-09T02:22:48.631+0000] {processor.py:161} INFO - Started process (PID=943) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:22:48.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:22:48.634+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:22:48.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:22:49.172+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:22:49.197+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:22:49.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:22:49.208+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:22:49.208+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:22:49.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.605 seconds
+[2025-06-09T02:23:19.804+0000] {processor.py:161} INFO - Started process (PID=966) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:23:19.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:23:19.812+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:23:19.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:23:20.345+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:23:20.369+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:23:20.369+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:23:20.379+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:23:20.379+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:23:20.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.612 seconds
+[2025-06-09T02:23:50.593+0000] {processor.py:161} INFO - Started process (PID=989) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:23:50.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:23:50.596+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:23:50.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:23:51.276+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:23:51.300+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:23:51.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:23:51.309+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:23:51.309+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:23:51.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.741 seconds
+[2025-06-09T02:24:22.003+0000] {processor.py:161} INFO - Started process (PID=1012) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:24:22.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:24:22.006+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:24:22.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:24:22.523+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:24:22.546+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:24:22.545+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:24:22.555+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:24:22.555+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:24:22.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.579 seconds
+[2025-06-09T02:24:52.911+0000] {processor.py:161} INFO - Started process (PID=1035) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:24:52.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:24:52.914+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:24:52.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:24:53.452+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:24:53.474+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:24:53.474+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:24:53.484+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:24:53.484+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:24:53.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.598 seconds
+[2025-06-09T02:25:23.591+0000] {processor.py:161} INFO - Started process (PID=1058) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:25:23.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:25:23.598+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:25:23.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:25:24.206+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:25:24.231+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:25:24.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:25:24.242+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:25:24.242+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:25:24.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.693 seconds
+[2025-06-09T02:25:54.430+0000] {processor.py:161} INFO - Started process (PID=1081) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:25:54.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:25:54.433+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:25:54.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:25:54.964+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:25:54.992+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:25:54.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:25:55.005+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:25:55.005+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:25:55.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.611 seconds
+[2025-06-09T02:26:25.765+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:26:25.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:26:25.768+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:26:25.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:26:26.300+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:26:26.324+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:26:26.323+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:26:26.333+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:26:26.333+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:26:26.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.597 seconds
+[2025-06-09T02:26:56.448+0000] {processor.py:161} INFO - Started process (PID=1127) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:26:56.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:26:56.451+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:26:56.451+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:26:56.992+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:26:57.016+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:26:57.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:26:57.025+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:26:57.025+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:26:57.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.604 seconds
+[2025-06-09T02:27:27.733+0000] {processor.py:161} INFO - Started process (PID=1150) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:27:27.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:27:27.736+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:27:27.736+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:27:28.296+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:27:28.318+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:27:28.318+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:27:28.328+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:27:28.328+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:27:28.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.666 seconds
+[2025-06-09T02:27:58.605+0000] {processor.py:161} INFO - Started process (PID=1173) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:27:58.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:27:58.608+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:27:58.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:27:59.153+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:27:59.178+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:27:59.177+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:27:59.188+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:27:59.188+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:27:59.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.608 seconds
+[2025-06-09T02:28:29.537+0000] {processor.py:161} INFO - Started process (PID=1196) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:28:29.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:28:29.547+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:28:29.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:28:30.338+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:28:30.367+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:28:30.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:28:30.381+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:28:30.381+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:28:30.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.893 seconds
+[2025-06-09T02:29:01.120+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:29:01.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:29:01.124+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:29:01.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:29:01.715+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:29:01.738+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:29:01.737+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:29:01.749+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:29:01.748+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:29:01.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.657 seconds
+[2025-06-09T02:29:32.205+0000] {processor.py:161} INFO - Started process (PID=1242) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:29:32.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:29:32.208+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:29:32.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:29:32.732+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:29:32.755+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:29:32.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:29:32.765+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:29:32.765+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:29:32.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.586 seconds
+[2025-06-09T02:30:03.292+0000] {processor.py:161} INFO - Started process (PID=1265) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:30:03.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:30:03.295+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:30:03.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:30:03.853+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:30:03.874+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:30:03.874+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:30:03.884+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:30:03.883+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:30:03.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.624 seconds
+[2025-06-09T02:30:34.427+0000] {processor.py:161} INFO - Started process (PID=1288) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:30:34.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:30:34.429+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:30:34.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:30:34.965+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:30:34.988+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:30:34.988+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:30:34.999+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:30:34.999+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:30:35.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.598 seconds
+[2025-06-09T02:31:05.666+0000] {processor.py:161} INFO - Started process (PID=1311) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:31:05.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:31:05.678+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:31:05.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:31:06.326+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:31:06.348+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:31:06.348+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:31:06.357+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:31:06.357+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:31:06.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.723 seconds
+[2025-06-09T02:31:36.735+0000] {processor.py:161} INFO - Started process (PID=1334) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:31:36.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:31:36.738+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:31:36.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:31:37.311+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:31:37.343+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:31:37.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:31:37.356+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:31:37.356+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:31:37.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.650 seconds
+[2025-06-09T02:32:07.831+0000] {processor.py:161} INFO - Started process (PID=1357) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:32:07.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:32:07.834+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:32:07.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:32:08.359+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:32:08.381+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:32:08.381+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:32:08.391+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:32:08.391+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:32:08.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.586 seconds
+[2025-06-09T02:32:38.764+0000] {processor.py:161} INFO - Started process (PID=1380) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:32:38.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:32:38.768+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:32:38.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:32:39.308+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:32:39.331+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:32:39.331+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:32:39.342+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:32:39.341+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:32:39.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.607 seconds
+[2025-06-09T02:33:06.672+0000] {processor.py:161} INFO - Started process (PID=1403) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:33:06.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:33:06.675+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:33:06.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:33:07.276+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:33:07.300+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:33:07.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:33:07.311+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:33:07.310+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:33:07.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.672 seconds
+[2025-06-09T02:33:38.334+0000] {processor.py:161} INFO - Started process (PID=1426) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:33:38.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:33:38.337+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:33:38.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:33:38.879+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:33:38.903+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:33:38.903+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:33:38.914+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:33:38.914+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:33:38.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.605 seconds
+[2025-06-09T02:34:09.496+0000] {processor.py:161} INFO - Started process (PID=1449) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:34:09.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:34:09.499+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:34:09.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:34:10.042+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:34:10.064+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:34:10.063+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:34:10.074+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:34:10.073+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:34:10.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.604 seconds
+[2025-06-09T02:34:40.519+0000] {processor.py:161} INFO - Started process (PID=1472) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:34:40.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:34:40.522+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:34:40.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:34:41.067+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:34:41.089+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:34:41.088+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:34:41.098+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:34:41.098+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:34:41.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.605 seconds
+[2025-06-09T02:35:11.278+0000] {processor.py:161} INFO - Started process (PID=1495) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:11.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:35:11.280+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:11.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:11.999+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:12.025+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:12.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:35:12.035+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:12.034+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:35:12.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.787 seconds
+[2025-06-09T02:35:12.691+0000] {processor.py:161} INFO - Started process (PID=1500) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:12.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:35:12.695+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:12.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:13.380+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:13.403+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:13.403+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:35:13.416+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:13.416+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:35:13.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.756 seconds
+[2025-06-09T02:35:44.004+0000] {processor.py:161} INFO - Started process (PID=1523) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:44.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:35:44.007+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:44.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:44.530+0000] {processor.py:840} INFO - DAG(s) 'crawl_and_upload_dmcl_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:35:44.552+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:44.551+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:35:44.562+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:35:44.561+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_and_upload_dmcl_dag to None, run_after=None
+[2025-06-09T02:35:44.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.589 seconds
+[2025-06-09T02:36:06.622+0000] {processor.py:161} INFO - Started process (PID=1546) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:36:06.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:36:06.625+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:06.625+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:36:07.153+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:36:07.285+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:07.285+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:crawl_dcml_and_upload_2datalake_dag
+[2025-06-09T02:36:07.295+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:07.294+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:crawl_dcml_and_upload_2datalake_dag
+[2025-06-09T02:36:07.301+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:07.301+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:crawl_dcml_and_upload_2datalake_dag
+[2025-06-09T02:36:07.302+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:07.302+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:36:07.311+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:07.310+0000] {dag.py:3118} INFO - Creating ORM DAG for crawl_dcml_and_upload_2datalake_dag
+[2025-06-09T02:36:07.312+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:07.311+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:36:07.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.718 seconds
+[2025-06-09T02:36:37.442+0000] {processor.py:161} INFO - Started process (PID=1569) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:36:37.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:36:37.445+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:37.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:36:37.985+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:36:38.008+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:38.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:36:38.020+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:36:38.020+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:36:38.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.609 seconds
+[2025-06-09T02:37:08.128+0000] {processor.py:161} INFO - Started process (PID=1592) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:08.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:37:08.130+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:08.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:08.659+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:08.684+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:08.684+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:37:08.695+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:08.695+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:37:08.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.594 seconds
+[2025-06-09T02:37:12.284+0000] {processor.py:161} INFO - Started process (PID=1597) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:12.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:37:12.286+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:12.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:12.963+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:12.989+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:12.988+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:37:12.999+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:12.999+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:37:13.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.746 seconds
+[2025-06-09T02:37:43.307+0000] {processor.py:161} INFO - Started process (PID=1620) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:43.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:37:43.309+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:43.309+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:43.911+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:37:43.934+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:43.933+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:37:43.944+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:37:43.944+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:37:43.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.669 seconds
+[2025-06-09T02:38:14.322+0000] {processor.py:161} INFO - Started process (PID=1643) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:38:14.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:38:14.326+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:38:14.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:38:15.052+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:38:15.082+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:38:15.080+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:38:15.095+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:38:15.095+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:38:15.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.799 seconds
+[2025-06-09T02:38:45.501+0000] {processor.py:161} INFO - Started process (PID=1665) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:38:45.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:38:45.511+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:38:45.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:38:46.440+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:38:46.471+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:38:46.471+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:38:46.484+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:38:46.484+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:38:46.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 1.028 seconds
+[2025-06-09T02:39:16.630+0000] {processor.py:161} INFO - Started process (PID=1684) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:39:16.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:39:16.632+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:39:16.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:39:17.404+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:39:17.444+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:39:17.443+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:39:17.482+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:39:17.482+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:39:17.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.898 seconds
+[2025-06-09T02:39:47.603+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:39:47.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:39:47.605+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:39:47.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:39:48.300+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:39:48.322+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:39:48.322+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:39:48.333+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:39:48.333+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:39:48.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.758 seconds
+[2025-06-09T02:40:19.414+0000] {processor.py:161} INFO - Started process (PID=1730) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:40:19.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:40:19.417+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:40:19.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:40:20.252+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:40:20.304+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:40:20.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:40:20.325+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:40:20.325+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:40:20.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.942 seconds
+[2025-06-09T02:40:52.000+0000] {processor.py:161} INFO - Started process (PID=1753) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:40:52.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:40:52.003+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:40:52.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:40:52.664+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:40:52.690+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:40:52.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:40:52.700+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:40:52.700+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:40:52.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.725 seconds
+[2025-06-09T02:41:23.711+0000] {processor.py:161} INFO - Started process (PID=1776) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:41:23.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:41:23.714+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:41:23.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:41:24.415+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:41:24.449+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:41:24.449+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:41:24.482+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:41:24.482+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:41:24.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.826 seconds
+[2025-06-09T02:41:54.968+0000] {processor.py:161} INFO - Started process (PID=1799) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:41:54.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:41:54.971+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:41:54.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:41:55.552+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:41:55.574+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:41:55.574+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:41:55.584+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:41:55.584+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:41:55.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.639 seconds
+[2025-06-09T02:42:26.030+0000] {processor.py:161} INFO - Started process (PID=1822) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:42:26.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:42:26.033+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:42:26.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:42:26.632+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:42:26.660+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:42:26.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:42:26.670+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:42:26.670+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:42:26.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.670 seconds
+[2025-06-09T02:42:57.156+0000] {processor.py:161} INFO - Started process (PID=1845) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:42:57.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:42:57.159+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:42:57.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:42:57.828+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:42:57.866+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:42:57.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:42:57.877+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:42:57.877+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:42:57.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.752 seconds
+[2025-06-09T02:43:28.534+0000] {processor.py:161} INFO - Started process (PID=1868) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:43:28.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:43:28.536+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:43:28.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:43:29.188+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:43:29.217+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:43:29.217+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:43:29.230+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:43:29.230+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:43:29.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.721 seconds
+[2025-06-09T02:43:59.787+0000] {processor.py:161} INFO - Started process (PID=1891) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:43:59.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:43:59.789+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:43:59.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:44:00.637+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:44:00.677+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:44:00.676+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:44:00.692+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:44:00.692+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:44:00.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.955 seconds
+[2025-06-09T02:44:31.102+0000] {processor.py:161} INFO - Started process (PID=1914) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:44:31.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:44:31.104+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:44:31.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:44:31.725+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:44:31.749+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:44:31.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:44:31.760+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:44:31.760+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:44:31.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.682 seconds
+[2025-06-09T02:45:02.234+0000] {processor.py:161} INFO - Started process (PID=1937) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:45:02.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:45:02.238+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:45:02.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:45:02.840+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:45:02.864+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:45:02.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:45:02.876+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:45:02.875+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:45:02.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.673 seconds
+[2025-06-09T02:45:33.230+0000] {processor.py:161} INFO - Started process (PID=1960) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:45:33.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:45:33.232+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:45:33.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:45:33.814+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:45:33.839+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:45:33.838+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:45:33.849+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:45:33.849+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:45:33.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.647 seconds
+[2025-06-09T02:46:04.451+0000] {processor.py:161} INFO - Started process (PID=1983) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:46:04.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:46:04.452+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:46:04.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:46:05.056+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:46:05.081+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:46:05.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:46:05.094+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:46:05.094+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:46:05.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.669 seconds
+[2025-06-09T02:46:37.261+0000] {processor.py:161} INFO - Started process (PID=2006) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:46:37.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:46:37.264+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:46:37.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:46:38.285+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:46:38.327+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:46:38.326+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:46:38.357+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:46:38.356+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:46:38.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 1.145 seconds
+[2025-06-09T02:47:08.667+0000] {processor.py:161} INFO - Started process (PID=2029) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:47:08.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:47:08.669+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:47:08.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:47:09.709+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:47:09.760+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:47:09.760+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:47:09.780+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:47:09.780+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:47:09.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 1.140 seconds
+[2025-06-09T02:47:39.958+0000] {processor.py:161} INFO - Started process (PID=2052) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:47:39.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:47:39.961+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:47:39.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:47:40.615+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:47:40.648+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:47:40.648+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:47:40.663+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:47:40.663+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:47:40.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.740 seconds
+[2025-06-09T02:48:12.477+0000] {processor.py:161} INFO - Started process (PID=2075) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:48:12.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:48:12.478+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:48:12.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:48:13.456+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:48:13.518+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:48:13.518+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:48:13.536+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:48:13.535+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:48:13.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 1.109 seconds
+[2025-06-09T02:48:44.398+0000] {processor.py:161} INFO - Started process (PID=2098) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:48:44.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:48:44.400+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:48:44.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:48:45.022+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:48:45.059+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:48:45.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:48:45.075+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:48:45.075+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:48:45.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.717 seconds
+[2025-06-09T02:49:16.002+0000] {processor.py:161} INFO - Started process (PID=2126) to work on /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:49:16.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py for tasks to queue
+[2025-06-09T02:49:16.004+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:49:16.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:49:16.692+0000] {processor.py:840} INFO - DAG(s) 'crawl_dcml_and_upload_2datalake_dag' retrieved from /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py
+[2025-06-09T02:49:16.717+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:49:16.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T02:49:16.730+0000] {logging_mixin.py:188} INFO - [2025-06-09T02:49:16.729+0000] {dag.py:3954} INFO - Setting next_dagrun for crawl_dcml_and_upload_2datalake_dag to None, run_after=None
+[2025-06-09T02:49:16.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_crawl_dmcl_load2datalake.py took 0.758 seconds

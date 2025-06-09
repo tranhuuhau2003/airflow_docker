@@ -1,0 +1,13 @@
+{"timestamp":"2025-06-04T04:34:46.868951","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-04T04:34:46.869509","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test_postgres_conn.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-04T04:34:46.911768Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:46.912302Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:46.913009Z","level":"info","event":"Current task name:test_postgres_connection","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:46.913411Z","level":"info","event":"Dag name:test_postgres_connection_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:46.899030","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-06-04T04:34:46.922720","level":"info","event":"Connection Retrieved 'datawarehouse_localhost'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-04T04:34:47.002189Z","level":"info","event":"✅ Kết nối thành công. PostgreSQL version: ('PostgreSQL 16.9 (Ubuntu 16.9-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit',)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:47.003689Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:47.004137Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:47.004567Z","level":"info","event":"Task operator:<Task(PythonOperator): test_postgres_connection>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:34:47.002360","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

@@ -1,0 +1,13 @@
+{"timestamp":"2025-06-04T04:52:30.881861","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-04T04:52:30.882706","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test_postgres_conn.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-04T04:52:30.913955","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-06-04T04:52:31.316140Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:52:31.317110Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:52:31.318529Z","level":"info","event":"Current task name:test_postgres_connection","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:52:31.319299Z","level":"info","event":"Dag name:test_postgres_connection_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:52:31.316446","level":"info","event":"Connection Retrieved 'datawarehouse_localhost'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-04T04:52:31.357401Z","level":"info","event":"✅ Kết nối thành công. PostgreSQL version: ('PostgreSQL 16.9 (Ubuntu 16.9-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit',)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:52:31.357536","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-04T04:52:31.383092Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:52:31.383499Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-04T04:52:31.383863Z","level":"info","event":"Task operator:<Task(PythonOperator): test_postgres_connection>","chan":"stdout","logger":"task"}
