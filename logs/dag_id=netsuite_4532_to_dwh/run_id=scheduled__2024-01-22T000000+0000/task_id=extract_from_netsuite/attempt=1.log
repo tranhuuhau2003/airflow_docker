@@ -1,0 +1,57 @@
+[2025-06-09T06:28:03.033+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T06:28:03.193+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: netsuite_4532_to_dwh.extract_from_netsuite scheduled__2024-01-22T00:00:00+00:00 [queued]>
+[2025-06-09T06:28:03.215+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: netsuite_4532_to_dwh.extract_from_netsuite scheduled__2024-01-22T00:00:00+00:00 [queued]>
+[2025-06-09T06:28:03.216+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-09T06:28:03.443+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_from_netsuite> on 2024-01-22 00:00:00+00:00
+[2025-06-09T06:28:03.471+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'netsuite_4532_to_dwh', 'extract_from_netsuite', 'scheduled__2024-01-22T00:00:00+00:00', '--job-id', '226', '--raw', '--subdir', 'DAGS_FOLDER/netsuite_4532_dag.py', '--cfg-path', '/tmp/tmpsmolq_kz']
+[2025-06-09T06:28:03.475+0000] {standard_task_runner.py:91} INFO - Job 226: Subtask extract_from_netsuite
+[2025-06-09T06:28:03.474+0000] {standard_task_runner.py:63} INFO - Started process 109 to run task
+[2025-06-09T06:28:03.705+0000] {task_command.py:426} INFO - Running <TaskInstance: netsuite_4532_to_dwh.extract_from_netsuite scheduled__2024-01-22T00:00:00+00:00 [running]> on host 6b5241449da9
+[2025-06-09T06:28:03.880+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='netsuite_4532_to_dwh' AIRFLOW_CTX_TASK_ID='extract_from_netsuite' AIRFLOW_CTX_EXECUTION_DATE='2024-01-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-22T00:00:00+00:00'
+[2025-06-09T06:28:03.885+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T06:28:23.577+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-09T06:28:23.583+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/netsuite_4532_dag.py", line 54, in extract_from_netsuite
+    df = pd.read_csv(StringIO(response.text))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas/_libs/parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 12, saw 2
+
+[2025-06-09T06:28:23.638+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=netsuite_4532_to_dwh, task_id=extract_from_netsuite, run_id=scheduled__2024-01-22T00:00:00+00:00, execution_date=20240122T000000, start_date=20250609T062803, end_date=20250609T062823
+[2025-06-09T06:28:23.747+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 226 for task extract_from_netsuite (Error tokenizing data. C error: Expected 1 fields in line 12, saw 2
+; 109)
+[2025-06-09T06:28:23.930+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-06-09T06:28:24.169+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T06:28:24.193+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

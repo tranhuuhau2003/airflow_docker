@@ -1,0 +1,50 @@
+[2025-06-09T09:51:51.751+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T09:51:51.782+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T09:50:53.075362+00:00 [queued]>
+[2025-06-09T09:51:51.793+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T09:50:53.075362+00:00 [queued]>
+[2025-06-09T09:51:51.795+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-09T09:51:51.814+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): Upsert_F99_To_DataWarehouse> on 2025-06-09 09:50:53.075362+00:00
+[2025-06-09T09:51:51.819+0000] {standard_task_runner.py:63} INFO - Started process 64 to run task
+[2025-06-09T09:51:51.822+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'NetSuite_Daily_ToWarehouse_F99', 'Upsert_F99_To_DataWarehouse', 'manual__2025-06-09T09:50:53.075362+00:00', '--job-id', '390', '--raw', '--subdir', 'DAGS_FOLDER/dag_netsuite.py', '--cfg-path', '/tmp/tmpf3s9hadv']
+[2025-06-09T09:51:51.826+0000] {standard_task_runner.py:91} INFO - Job 390: Subtask Upsert_F99_To_DataWarehouse
+[2025-06-09T09:51:51.888+0000] {task_command.py:426} INFO - Running <TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T09:50:53.075362+00:00 [running]> on host 87d36d91b2b5
+[2025-06-09T09:51:52.063+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='NetSuite_Daily_ToWarehouse_F99' AIRFLOW_CTX_TASK_ID='Upsert_F99_To_DataWarehouse' AIRFLOW_CTX_EXECUTION_DATE='2025-06-09T09:50:53.075362+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-09T09:50:53.075362+00:00'
+[2025-06-09T09:51:52.066+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T09:51:52.098+0000] {warnings.py:110} WARNING - /opt/***/dags/dag_netsuite.py:84: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql(query, con=engine)
+
+[2025-06-09T09:51:52.098+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-09T09:51:52.099+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_netsuite.py", line 84, in upsert_F99_to_warehouse
+    df = pd.read_sql(query, con=engine)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 708, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 2728, in read_query
+    cursor = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 2662, in execute
+    cur = self.con.cursor()
+          ^^^^^^^^^^^^^^^
+AttributeError: 'Engine' object has no attribute 'cursor'
+[2025-06-09T09:51:52.122+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=NetSuite_Daily_ToWarehouse_F99, task_id=Upsert_F99_To_DataWarehouse, run_id=manual__2025-06-09T09:50:53.075362+00:00, execution_date=20250609T095053, start_date=20250609T095151, end_date=20250609T095152
+[2025-06-09T09:51:52.137+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 390 for task Upsert_F99_To_DataWarehouse ('Engine' object has no attribute 'cursor'; 64)
+[2025-06-09T09:51:52.158+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-06-09T09:51:52.179+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T09:51:52.181+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

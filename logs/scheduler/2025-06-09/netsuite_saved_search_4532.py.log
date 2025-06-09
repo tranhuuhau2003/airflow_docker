@@ -1,0 +1,444 @@
+[2025-06-09T06:45:54.469+0000] {processor.py:161} INFO - Started process (PID=9) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:45:54.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:45:54.490+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:45:54.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:45:54.731+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:45:55.694+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:45:55.682+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:netsuite_saved_search_4532
+[2025-06-09T06:45:55.739+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:45:55.738+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:netsuite_saved_search_4532
+[2025-06-09T06:45:55.769+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:45:55.768+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:netsuite_saved_search_4532
+[2025-06-09T06:45:55.776+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:45:55.776+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:45:55.871+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:45:55.871+0000] {dag.py:3118} INFO - Creating ORM DAG for netsuite_saved_search_4532
+[2025-06-09T06:45:56.129+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:45:56.128+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-07T07:00:00+00:00, run_after=2025-06-08T07:00:00+00:00
+[2025-06-09T06:45:56.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 1.918 seconds
+[2025-06-09T06:46:26.977+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:46:26.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:46:26.997+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:46:26.995+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:46:27.092+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:46:27.227+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:46:27.227+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:46:27.292+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:46:27.292+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-07T07:00:00+00:00, run_after=2025-06-08T07:00:00+00:00
+[2025-06-09T06:46:27.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.395 seconds
+[2025-06-09T06:46:57.871+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:46:57.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:46:57.886+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:46:57.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:46:57.972+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:46:58.070+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:46:58.070+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:46:58.131+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:46:58.131+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:46:58.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.333 seconds
+[2025-06-09T06:47:28.642+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:47:28.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:47:28.645+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:47:28.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:47:28.668+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:47:28.698+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:47:28.698+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:47:28.720+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:47:28.720+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:47:28.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.103 seconds
+[2025-06-09T06:47:59.380+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:47:59.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:47:59.385+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:47:59.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:47:59.407+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:47:59.436+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:47:59.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:47:59.563+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:47:59.562+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:47:59.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.207 seconds
+[2025-06-09T06:48:29.962+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:48:29.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:48:29.966+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:48:29.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:48:29.987+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:48:30.017+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:48:30.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:48:30.055+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:48:30.055+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:48:30.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.123 seconds
+[2025-06-09T06:49:00.590+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:49:00.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:49:00.594+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:49:00.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:49:00.631+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:49:00.669+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:49:00.668+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:49:00.693+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:49:00.693+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:49:00.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.137 seconds
+[2025-06-09T06:49:31.555+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:49:31.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:49:31.559+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:49:31.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:49:31.619+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:49:31.671+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:49:31.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:49:31.696+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:49:31.696+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:49:31.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.179 seconds
+[2025-06-09T06:50:01.785+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:50:01.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:50:01.788+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:50:01.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:50:01.815+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:50:01.844+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:50:01.843+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:50:01.865+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:50:01.865+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:50:01.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.109 seconds
+[2025-06-09T06:50:31.996+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:50:31.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:50:31.999+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:50:31.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:50:32.026+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:50:32.062+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:50:32.061+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:50:32.087+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:50:32.086+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:50:32.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.117 seconds
+[2025-06-09T06:51:02.238+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:02.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:51:02.241+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:02.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:02.266+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:02.319+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:02.319+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:51:02.353+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:02.352+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:51:02.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.141 seconds
+[2025-06-09T06:51:28.615+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:28.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:51:28.617+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:28.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:28.639+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:28.685+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:28.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:51:28.713+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:28.713+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:51:28.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.133 seconds
+[2025-06-09T06:51:29.642+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:29.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:51:29.645+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:29.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:29.667+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:51:29.695+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:29.695+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:51:29.728+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:51:29.727+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:51:29.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.123 seconds
+[2025-06-09T06:52:00.169+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:52:00.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:52:00.173+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:52:00.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:52:00.339+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:52:00.392+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:52:00.392+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:52:00.421+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:52:00.420+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:52:00.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.301 seconds
+[2025-06-09T06:52:30.817+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:52:30.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:52:30.820+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:52:30.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:52:30.849+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:52:30.885+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:52:30.884+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:52:30.917+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:52:30.916+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:52:30.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.142 seconds
+[2025-06-09T06:53:01.240+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:53:01.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:53:01.243+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:53:01.242+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:53:01.268+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:53:01.300+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:53:01.300+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:53:01.324+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:53:01.324+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:53:01.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.117 seconds
+[2025-06-09T06:53:31.823+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:53:31.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:53:31.826+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:53:31.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:53:31.849+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:53:31.878+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:53:31.878+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:53:31.901+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:53:31.901+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:53:31.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.106 seconds
+[2025-06-09T06:54:02.110+0000] {processor.py:161} INFO - Started process (PID=490) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:54:02.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:54:02.113+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:54:02.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:54:02.137+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:54:02.166+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:54:02.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:54:02.188+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:54:02.188+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:54:02.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.110 seconds
+[2025-06-09T06:54:32.982+0000] {processor.py:161} INFO - Started process (PID=520) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:54:32.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:54:32.985+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:54:32.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:54:33.012+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:54:33.042+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:54:33.042+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:54:33.070+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:54:33.069+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:54:33.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.119 seconds
+[2025-06-09T06:55:03.335+0000] {processor.py:161} INFO - Started process (PID=550) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:55:03.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:55:03.339+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:55:03.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:55:03.361+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:55:03.389+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:55:03.389+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:55:03.412+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:55:03.412+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:55:03.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.105 seconds
+[2025-06-09T06:55:33.727+0000] {processor.py:161} INFO - Started process (PID=580) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:55:33.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:55:33.753+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:55:33.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:55:33.799+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:55:33.827+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:55:33.827+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:55:33.852+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:55:33.852+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:55:33.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.175 seconds
+[2025-06-09T06:56:04.526+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:56:04.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:56:04.529+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:56:04.529+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:56:04.552+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:56:04.579+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:56:04.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:56:04.601+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:56:04.601+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:56:04.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.103 seconds
+[2025-06-09T06:56:35.056+0000] {processor.py:161} INFO - Started process (PID=640) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:56:35.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:56:35.060+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:56:35.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:56:35.083+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:56:35.110+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:56:35.110+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:56:35.132+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:56:35.132+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:56:35.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.102 seconds
+[2025-06-09T06:57:05.636+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:57:05.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:57:05.639+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:57:05.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:57:05.663+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:57:05.690+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:57:05.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:57:05.712+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:57:05.712+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:57:05.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.107 seconds
+[2025-06-09T06:57:36.015+0000] {processor.py:161} INFO - Started process (PID=700) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:57:36.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:57:36.018+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:57:36.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:57:36.048+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:57:36.076+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:57:36.076+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:57:36.097+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:57:36.097+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:57:36.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.110 seconds
+[2025-06-09T06:58:06.556+0000] {processor.py:161} INFO - Started process (PID=730) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:58:06.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:58:06.560+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:58:06.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:58:06.587+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:58:06.623+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:58:06.623+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:58:06.649+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:58:06.649+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:58:06.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.119 seconds
+[2025-06-09T06:58:37.268+0000] {processor.py:161} INFO - Started process (PID=760) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:58:37.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:58:37.271+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:58:37.270+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:58:37.298+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:58:37.324+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:58:37.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:58:37.346+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:58:37.346+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:58:37.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.106 seconds
+[2025-06-09T06:59:07.411+0000] {processor.py:161} INFO - Started process (PID=785) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:07.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:59:07.414+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:07.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:07.440+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:07.474+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:07.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:59:07.500+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:07.500+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:59:07.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.121 seconds
+[2025-06-09T06:59:17.970+0000] {processor.py:161} INFO - Started process (PID=792) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:17.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:59:17.973+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:17.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:17.996+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:18.024+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:18.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:59:18.047+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:18.047+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:59:18.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.107 seconds
+[2025-06-09T06:59:57.897+0000] {processor.py:161} INFO - Started process (PID=9) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:57.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T06:59:57.985+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:57.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:58.184+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T06:59:58.647+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:58.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T06:59:58.764+0000] {logging_mixin.py:188} INFO - [2025-06-09T06:59:58.763+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-08T07:00:00+00:00, run_after=2025-06-09T07:00:00+00:00
+[2025-06-09T06:59:58.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 1.054 seconds
+[2025-06-09T07:00:29.432+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:00:29.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:00:29.447+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:00:29.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:00:29.520+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:00:29.571+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:00:29.571+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:00:29.646+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:00:29.646+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:00:30.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.801 seconds
+[2025-06-09T07:01:00.497+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:01:00.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:01:00.500+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:01:00.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:01:00.526+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:01:00.639+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:01:00.639+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:01:00.658+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:01:00.658+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:01:00.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.189 seconds
+[2025-06-09T07:01:30.731+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:01:30.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:01:30.734+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:01:30.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:01:30.760+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:01:30.790+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:01:30.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:01:30.818+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:01:30.818+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:01:30.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.122 seconds
+[2025-06-09T07:02:00.959+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:02:00.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:02:00.962+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:02:00.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:02:00.988+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:02:01.018+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:02:01.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:02:01.042+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:02:01.041+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:02:01.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.113 seconds
+[2025-06-09T07:02:31.255+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:02:31.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:02:31.259+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:02:31.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:02:31.284+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:02:31.316+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:02:31.316+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:02:31.345+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:02:31.344+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:02:31.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.119 seconds
+[2025-06-09T07:03:02.292+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:03:02.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:03:02.296+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:03:02.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:03:02.318+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:03:02.348+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:03:02.348+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:03:02.372+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:03:02.372+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:03:02.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.120 seconds
+[2025-06-09T07:03:32.558+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:03:32.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:03:32.561+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:03:32.561+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:03:32.591+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:03:32.638+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:03:32.638+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:03:32.664+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:03:32.664+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:03:32.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.133 seconds
+[2025-06-09T07:04:04.969+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:04:04.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:04:04.999+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:04:04.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:04:05.339+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:04:05.392+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:04:05.392+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:04:05.465+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:04:05.465+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:04:05.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.630 seconds
+[2025-06-09T07:04:36.258+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:04:36.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:04:36.261+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:04:36.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:04:36.283+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:04:36.313+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:04:36.313+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:04:36.335+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:04:36.335+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:04:36.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.107 seconds
+[2025-06-09T07:05:06.989+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:05:06.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:05:06.992+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:05:06.992+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:05:07.017+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:05:07.045+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:05:07.045+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:05:07.071+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:05:07.071+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:05:07.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.111 seconds
+[2025-06-09T07:05:37.152+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:05:37.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:05:37.160+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:05:37.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:05:37.229+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:05:37.332+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:05:37.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:05:37.417+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:05:37.417+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:05:37.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.728 seconds
+[2025-06-09T07:06:08.677+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:06:08.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:06:08.679+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:06:08.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:06:08.700+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:06:08.729+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:06:08.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:06:08.755+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:06:08.755+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:06:08.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.110 seconds
+[2025-06-09T07:06:39.323+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:06:39.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:06:39.330+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:06:39.330+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:06:39.361+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:06:39.399+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:06:39.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:06:39.423+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:06:39.423+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:06:39.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.128 seconds
+[2025-06-09T07:07:09.636+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:07:09.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:07:09.639+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:07:09.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:07:09.705+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:07:09.722+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:07:09.722+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:07:09.752+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:07:09.752+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:07:09.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.176 seconds
+[2025-06-09T07:07:40.426+0000] {processor.py:161} INFO - Started process (PID=465) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:07:40.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:07:40.429+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:07:40.428+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:07:40.455+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:07:40.563+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:07:40.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:07:40.586+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:07:40.585+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:07:40.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.190 seconds
+[2025-06-09T07:08:11.094+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:08:11.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:08:11.096+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:08:11.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:08:11.142+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:08:11.171+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:08:11.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:08:11.198+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:08:11.198+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:08:11.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.134 seconds
+[2025-06-09T07:08:41.811+0000] {processor.py:161} INFO - Started process (PID=525) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:08:41.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:08:41.813+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:08:41.813+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:08:41.836+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:08:41.849+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:08:41.849+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:08:41.882+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:08:41.882+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:08:41.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.102 seconds
+[2025-06-09T07:09:12.086+0000] {processor.py:161} INFO - Started process (PID=555) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:09:12.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:09:12.088+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:09:12.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:09:12.113+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:09:12.219+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:09:12.218+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:09:12.238+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:09:12.237+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:09:12.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.182 seconds
+[2025-06-09T07:09:42.632+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:09:42.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:09:42.635+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:09:42.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:09:42.674+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:09:42.705+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:09:42.705+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:09:42.734+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:09:42.733+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:09:42.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.132 seconds
+[2025-06-09T07:10:13.113+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:10:13.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:10:13.115+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:10:13.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:10:13.143+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:10:13.155+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:10:13.155+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:10:13.179+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:10:13.179+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:10:13.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.100 seconds
+[2025-06-09T07:10:43.866+0000] {processor.py:161} INFO - Started process (PID=645) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:10:43.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:10:43.868+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:10:43.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:10:43.890+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:10:44.013+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:10:44.013+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:10:44.035+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:10:44.035+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:10:44.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.200 seconds
+[2025-06-09T07:11:15.027+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:11:15.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:11:15.034+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:11:15.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:11:15.063+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:11:15.113+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:11:15.112+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:11:15.143+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:11:15.143+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:11:15.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.172 seconds
+[2025-06-09T07:29:13.805+0000] {processor.py:161} INFO - Started process (PID=10) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:29:13.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:29:13.822+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:29:13.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:29:14.022+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:29:14.150+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:29:14.149+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:29:14.220+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:29:14.219+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:29:14.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.512 seconds
+[2025-06-09T07:29:44.605+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:29:44.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:29:44.608+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:29:44.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:29:44.633+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:29:44.647+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:29:44.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:29:44.674+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:29:44.673+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:29:44.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.214 seconds
+[2025-06-09T07:30:15.428+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:30:15.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:30:15.432+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:30:15.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:30:15.456+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:30:15.570+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:30:15.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:30:15.592+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:30:15.591+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:30:15.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.191 seconds
+[2025-06-09T07:30:45.731+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:30:45.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:30:45.740+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:30:45.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:30:45.768+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:30:45.795+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:30:45.794+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:30:45.821+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:30:45.820+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:30:45.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.116 seconds
+[2025-06-09T07:31:15.905+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:31:15.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:31:15.908+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:31:15.908+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:31:15.931+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:31:15.959+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:31:15.959+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:31:15.982+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:31:15.982+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:31:16.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.105 seconds
+[2025-06-09T07:31:46.241+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:31:46.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:31:46.244+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:31:46.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:31:46.269+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:31:46.298+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:31:46.298+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:31:46.322+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:31:46.321+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:31:46.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.107 seconds
+[2025-06-09T07:32:16.871+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:32:16.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:32:16.875+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:32:16.875+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:32:16.916+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:32:16.954+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:32:16.954+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:32:17.015+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:32:17.015+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:32:17.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.215 seconds
+[2025-06-09T07:32:47.295+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:32:47.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:32:47.298+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:32:47.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:32:47.325+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:32:47.367+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:32:47.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:32:47.395+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:32:47.394+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:32:47.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.127 seconds
+[2025-06-09T07:33:18.099+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:18.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:33:18.102+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:18.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:18.124+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:18.154+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:18.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:33:18.175+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:18.175+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:33:18.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.104 seconds
+[2025-06-09T07:33:48.336+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:48.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:33:48.339+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:48.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:48.361+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532' retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:48.390+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:48.390+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T07:33:48.413+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:48.412+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532 to 2025-06-09T07:00:00+00:00, run_after=2025-06-10T07:00:00+00:00
+[2025-06-09T07:33:48.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.105 seconds
+[2025-06-09T07:33:50.451+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:50.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_saved_search_4532.py for tasks to queue
+[2025-06-09T07:33:50.454+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:50.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:50.460+0000] {logging_mixin.py:188} INFO - [2025-06-09T07:33:50.460+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/netsuite_saved_search_4532.py assumed to contain no DAGs. Skipping.
+[2025-06-09T07:33:50.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/netsuite_saved_search_4532.py
+[2025-06-09T07:33:50.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_saved_search_4532.py took 0.039 seconds

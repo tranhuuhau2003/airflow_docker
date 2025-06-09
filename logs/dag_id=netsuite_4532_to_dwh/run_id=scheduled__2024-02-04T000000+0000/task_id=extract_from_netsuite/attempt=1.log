@@ -1,0 +1,14 @@
+[2025-06-09T06:28:40.206+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T06:28:40.236+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: netsuite_4532_to_dwh.extract_from_netsuite scheduled__2024-02-04T00:00:00+00:00 [queued]>
+[2025-06-09T06:28:40.245+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: netsuite_4532_to_dwh.extract_from_netsuite scheduled__2024-02-04T00:00:00+00:00 [queued]>
+[2025-06-09T06:28:40.246+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-09T06:28:40.264+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_from_netsuite> on 2024-02-04 00:00:00+00:00
+[2025-06-09T06:28:40.269+0000] {standard_task_runner.py:63} INFO - Started process 137 to run task
+[2025-06-09T06:28:40.273+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'netsuite_4532_to_dwh', 'extract_from_netsuite', 'scheduled__2024-02-04T00:00:00+00:00', '--job-id', '236', '--raw', '--subdir', 'DAGS_FOLDER/netsuite_4532_dag.py', '--cfg-path', '/tmp/tmpvkgf8vje']
+[2025-06-09T06:28:40.275+0000] {standard_task_runner.py:91} INFO - Job 236: Subtask extract_from_netsuite
+[2025-06-09T06:28:40.334+0000] {task_command.py:426} INFO - Running <TaskInstance: netsuite_4532_to_dwh.extract_from_netsuite scheduled__2024-02-04T00:00:00+00:00 [running]> on host 6b5241449da9
+[2025-06-09T06:28:40.427+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='netsuite_4532_to_dwh' AIRFLOW_CTX_TASK_ID='extract_from_netsuite' AIRFLOW_CTX_EXECUTION_DATE='2024-02-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-04T00:00:00+00:00'
+[2025-06-09T06:28:40.430+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T06:29:53.224+0000] {local_task_job_runner.py:240} INFO - Task exited with return code -9
+[2025-06-09T06:29:54.080+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T06:29:54.092+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

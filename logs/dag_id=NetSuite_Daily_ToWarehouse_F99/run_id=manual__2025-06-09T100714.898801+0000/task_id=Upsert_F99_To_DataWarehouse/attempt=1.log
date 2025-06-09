@@ -1,0 +1,72 @@
+[2025-06-09T10:08:12.720+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T10:08:12.795+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T10:07:14.898801+00:00 [queued]>
+[2025-06-09T10:08:12.810+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T10:07:14.898801+00:00 [queued]>
+[2025-06-09T10:08:12.815+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-09T10:08:12.837+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): Upsert_F99_To_DataWarehouse> on 2025-06-09 10:07:14.898801+00:00
+[2025-06-09T10:08:12.849+0000] {standard_task_runner.py:63} INFO - Started process 70 to run task
+[2025-06-09T10:08:12.853+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'NetSuite_Daily_ToWarehouse_F99', 'Upsert_F99_To_DataWarehouse', 'manual__2025-06-09T10:07:14.898801+00:00', '--job-id', '392', '--raw', '--subdir', 'DAGS_FOLDER/dag_netsuite.py', '--cfg-path', '/tmp/tmpjq50oddw']
+[2025-06-09T10:08:12.860+0000] {standard_task_runner.py:91} INFO - Job 392: Subtask Upsert_F99_To_DataWarehouse
+[2025-06-09T10:08:12.937+0000] {task_command.py:426} INFO - Running <TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T10:07:14.898801+00:00 [running]> on host 87d36d91b2b5
+[2025-06-09T10:08:13.052+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='NetSuite_Daily_ToWarehouse_F99' AIRFLOW_CTX_TASK_ID='Upsert_F99_To_DataWarehouse' AIRFLOW_CTX_EXECUTION_DATE='2025-06-09T10:07:14.898801+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-09T10:07:14.898801+00:00'
+[2025-06-09T10:08:13.053+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T10:08:13.121+0000] {warnings.py:110} WARNING - /opt/***/plugins/Project/TaraFunction.py:187: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql_query(query, conn)
+
+[2025-06-09T10:08:17.988+0000] {logging_mixin.py:188} INFO - [F99 → DW] Đã lấy 186718 dòng từ Datalake.
+[2025-06-09T10:08:18.293+0000] {logging_mixin.py:188} INFO - [Datawarehouse] Lỗi xóa dữ liệu cũ: relation "NetSuite.F99_CustomSearch_4532" does not exist
+LINE 1: DELETE FROM "NetSuite"."F99_CustomSearch_4532" WHERE "filena...
+                    ^
+[2025-06-09T10:08:30.665+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-09T10:08:30.667+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/plugins/Project/TaraFunction.py", line 340, in upsert_data2datawarehouse
+    cur.execute(insert_sql)
+psycopg2.errors.UndefinedTable: relation "NetSuite.F99_CustomSearch_4532" does not exist
+LINE 1: INSERT INTO "NetSuite"."F99_CustomSearch_4532" ("Type","Peri...
+                    ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/airflow/dags/dag_netsuite.py", line 87, in upsert_F99_to_warehouse
+    upsert_data2datawarehouse(
+  File "/opt/airflow/plugins/Project/TaraFunction.py", line 347, in upsert_data2datawarehouse
+    raise Exception(f"[Datawarehouse] Ghi dữ liệu thất bại: {e}")
+Exception: [Datawarehouse] Ghi dữ liệu thất bại: relation "NetSuite.F99_CustomSearch_4532" does not exist
+LINE 1: INSERT INTO "NetSuite"."F99_CustomSearch_4532" ("Type","Peri...
+                    ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_netsuite.py", line 94, in upsert_F99_to_warehouse
+    raise Exception(f"[F99 → DW] Ghi dữ liệu vào Data Warehouse thất bại: {e}")
+Exception: [F99 → DW] Ghi dữ liệu vào Data Warehouse thất bại: [Datawarehouse] Ghi dữ liệu thất bại: relation "NetSuite.F99_CustomSearch_4532" does not exist
+LINE 1: INSERT INTO "NetSuite"."F99_CustomSearch_4532" ("Type","Peri...
+                    ^
+
+[2025-06-09T10:08:30.705+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=NetSuite_Daily_ToWarehouse_F99, task_id=Upsert_F99_To_DataWarehouse, run_id=manual__2025-06-09T10:07:14.898801+00:00, execution_date=20250609T100714, start_date=20250609T100812, end_date=20250609T100830
+[2025-06-09T10:08:30.732+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 392 for task Upsert_F99_To_DataWarehouse ([F99 → DW] Ghi dữ liệu vào Data Warehouse thất bại: [Datawarehouse] Ghi dữ liệu thất bại: relation "NetSuite.F99_CustomSearch_4532" does not exist
+LINE 1: INSERT INTO "NetSuite"."F99_CustomSearch_4532" ("Type","Peri...
+                    ^
+; 70)
+[2025-06-09T10:08:30.810+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-06-09T10:08:30.836+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T10:08:30.841+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,24 @@
+[2025-06-09T10:29:56.738+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T10:29:56.770+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T10:28:58.260680+00:00 [queued]>
+[2025-06-09T10:29:56.779+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T10:28:58.260680+00:00 [queued]>
+[2025-06-09T10:29:56.780+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-09T10:29:56.798+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): Upsert_F99_To_DataWarehouse> on 2025-06-09 10:28:58.260680+00:00
+[2025-06-09T10:29:56.805+0000] {standard_task_runner.py:63} INFO - Started process 88 to run task
+[2025-06-09T10:29:56.808+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'NetSuite_Daily_ToWarehouse_F99', 'Upsert_F99_To_DataWarehouse', 'manual__2025-06-09T10:28:58.260680+00:00', '--job-id', '398', '--raw', '--subdir', 'DAGS_FOLDER/dag_netsuite.py', '--cfg-path', '/tmp/tmpb0bfnat8']
+[2025-06-09T10:29:56.812+0000] {standard_task_runner.py:91} INFO - Job 398: Subtask Upsert_F99_To_DataWarehouse
+[2025-06-09T10:29:56.880+0000] {task_command.py:426} INFO - Running <TaskInstance: NetSuite_Daily_ToWarehouse_F99.Upsert_F99_To_DataWarehouse manual__2025-06-09T10:28:58.260680+00:00 [running]> on host 87d36d91b2b5
+[2025-06-09T10:29:57.003+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='NetSuite_Daily_ToWarehouse_F99' AIRFLOW_CTX_TASK_ID='Upsert_F99_To_DataWarehouse' AIRFLOW_CTX_EXECUTION_DATE='2025-06-09T10:28:58.260680+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-09T10:28:58.260680+00:00'
+[2025-06-09T10:29:57.004+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T10:29:57.075+0000] {warnings.py:110} WARNING - /opt/***/plugins/Project/TaraFunction.py:187: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql_query(query, conn)
+
+[2025-06-09T10:29:57.957+0000] {logging_mixin.py:188} INFO - [F99 → DW] Đã lấy 36719 dòng từ Datalake.
+[2025-06-09T10:29:57.958+0000] {logging_mixin.py:188} INFO - [F99 → DW] Ghi chunk từ dòng 0 đến 36719
+[2025-06-09T10:30:01.282+0000] {logging_mixin.py:188} INFO - [Datawarehouse] Ghi thành công 36719 dòng vào "NetSuite"."F99_CustomSearch_4532"
+[2025-06-09T10:30:01.306+0000] {logging_mixin.py:188} INFO - [F99 → DW] Ghi thành công 36719 dòng vào Data Warehouse.
+[2025-06-09T10:30:01.345+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-09T10:30:01.346+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-09T10:30:01.356+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=NetSuite_Daily_ToWarehouse_F99, task_id=Upsert_F99_To_DataWarehouse, run_id=manual__2025-06-09T10:28:58.260680+00:00, execution_date=20250609T102858, start_date=20250609T102956, end_date=20250609T103001
+[2025-06-09T10:30:01.384+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-09T10:30:01.407+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T10:30:01.409+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

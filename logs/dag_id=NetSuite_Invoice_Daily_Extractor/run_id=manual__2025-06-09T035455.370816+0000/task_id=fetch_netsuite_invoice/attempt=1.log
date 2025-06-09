@@ -1,0 +1,58 @@
+[2025-06-09T03:54:57.883+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T03:54:57.910+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NetSuite_Invoice_Daily_Extractor.fetch_netsuite_invoice manual__2025-06-09T03:54:55.370816+00:00 [queued]>
+[2025-06-09T03:54:57.917+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NetSuite_Invoice_Daily_Extractor.fetch_netsuite_invoice manual__2025-06-09T03:54:55.370816+00:00 [queued]>
+[2025-06-09T03:54:57.918+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-06-09T03:54:57.932+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_netsuite_invoice> on 2025-06-09 03:54:55.370816+00:00
+[2025-06-09T03:54:57.937+0000] {standard_task_runner.py:63} INFO - Started process 48 to run task
+[2025-06-09T03:54:57.940+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'NetSuite_Invoice_Daily_Extractor', 'fetch_netsuite_invoice', 'manual__2025-06-09T03:54:55.370816+00:00', '--job-id', '192', '--raw', '--subdir', 'DAGS_FOLDER/crawl_netsuite.py', '--cfg-path', '/tmp/tmptfybkv32']
+[2025-06-09T03:54:57.943+0000] {standard_task_runner.py:91} INFO - Job 192: Subtask fetch_netsuite_invoice
+[2025-06-09T03:54:57.993+0000] {task_command.py:426} INFO - Running <TaskInstance: NetSuite_Invoice_Daily_Extractor.fetch_netsuite_invoice manual__2025-06-09T03:54:55.370816+00:00 [running]> on host 6b5241449da9
+[2025-06-09T03:54:58.074+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='NetSuite_Invoice_Daily_Extractor' AIRFLOW_CTX_TASK_ID='fetch_netsuite_invoice' AIRFLOW_CTX_EXECUTION_DATE='2025-06-09T03:54:55.370816+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-09T03:54:55.370816+00:00'
+[2025-06-09T03:54:58.075+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T03:54:59.206+0000] {logging_mixin.py:188} INFO - ✅ Đăng nhập thành công.
+[2025-06-09T03:54:59.649+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-09T03:54:59.651+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/crawl_netsuite.py", line 41, in fetch_invoice_data
+    df = pd.read_csv(StringIO(response_csv.text))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas/_libs/parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 12, saw 2
+
+[2025-06-09T03:54:59.673+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=NetSuite_Invoice_Daily_Extractor, task_id=fetch_netsuite_invoice, run_id=manual__2025-06-09T03:54:55.370816+00:00, execution_date=20250609T035455, start_date=20250609T035457, end_date=20250609T035459
+[2025-06-09T03:54:59.683+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 192 for task fetch_netsuite_invoice (Error tokenizing data. C error: Expected 1 fields in line 12, saw 2
+; 48)
+[2025-06-09T03:54:59.720+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-06-09T03:54:59.780+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T03:54:59.782+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

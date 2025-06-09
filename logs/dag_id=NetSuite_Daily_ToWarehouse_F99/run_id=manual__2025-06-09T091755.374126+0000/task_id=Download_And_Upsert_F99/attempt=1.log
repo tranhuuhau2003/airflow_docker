@@ -1,0 +1,78 @@
+[2025-06-09T09:17:59.354+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T09:17:59.389+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Download_And_Upsert_F99 manual__2025-06-09T09:17:55.374126+00:00 [queued]>
+[2025-06-09T09:17:59.397+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Download_And_Upsert_F99 manual__2025-06-09T09:17:55.374126+00:00 [queued]>
+[2025-06-09T09:17:59.397+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-09T09:17:59.413+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): Download_And_Upsert_F99> on 2025-06-09 09:17:55.374126+00:00
+[2025-06-09T09:17:59.419+0000] {standard_task_runner.py:63} INFO - Started process 36 to run task
+[2025-06-09T09:17:59.423+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'NetSuite_Daily_ToWarehouse_F99', 'Download_And_Upsert_F99', 'manual__2025-06-09T09:17:55.374126+00:00', '--job-id', '383', '--raw', '--subdir', 'DAGS_FOLDER/dag_netsuite.py', '--cfg-path', '/tmp/tmpewy57rhb']
+[2025-06-09T09:17:59.426+0000] {standard_task_runner.py:91} INFO - Job 383: Subtask Download_And_Upsert_F99
+[2025-06-09T09:17:59.478+0000] {task_command.py:426} INFO - Running <TaskInstance: NetSuite_Daily_ToWarehouse_F99.Download_And_Upsert_F99 manual__2025-06-09T09:17:55.374126+00:00 [running]> on host 87d36d91b2b5
+[2025-06-09T09:17:59.576+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='NetSuite_Daily_ToWarehouse_F99' AIRFLOW_CTX_TASK_ID='Download_And_Upsert_F99' AIRFLOW_CTX_EXECUTION_DATE='2025-06-09T09:17:55.374126+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-09T09:17:55.374126+00:00'
+[2025-06-09T09:17:59.577+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T09:18:35.914+0000] {logging_mixin.py:188} INFO - [F99] Preview nội dung: Type,Period,Date,Document Number,Status,Người đề nghị thanh toán,Tara - Approver LV 1,Tara - Approver LV 2,Tara - DNTT Approval Status,TARA - Approval Status,KMP,Memo,Tara _Document_Link,Transaction Type Detail
+Invoice,Dec 2021,31/12/2021,OB21-INV-0042,Paid In Full,,,,,,"6408000 - Các khoản chiết kh
+[2025-06-09T09:18:39.606+0000] {logging_mixin.py:188} INFO - [F99] Số dòng đọc được: 384992
+[2025-06-09T09:18:39.764+0000] {logging_mixin.py:188} INFO - [Datalake] Cảnh báo khi xóa dữ liệu cũ: relation "NetSuite.F99_CustomSearch_4532" does not exist
+LINE 1: DELETE FROM "NetSuite"."F99_CustomSearch_4532" WHERE "filena...
+                    ^
+[2025-06-09T09:18:39.838+0000] {warnings.py:110} WARNING - /opt/***/plugins/Project/TaraFunction.py:257: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df.to_sql(
+
+[2025-06-09T09:18:39.912+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-09T09:18:39.919+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/plugins/Project/TaraFunction.py", line 257, in upsert_data2datalake
+    df.to_sql(
+  File "/usr/local/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/core/generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 2840, in to_sql
+    table.create()
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 986, in create
+    if self.exists():
+       ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 972, in exists
+    return self.pd_sql.has_table(self.name, self.schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 2855, in has_table
+    return len(self.execute(query, [name]).fetchall()) > 0
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pandas/io/sql.py", line 2662, in execute
+    cur = self.con.cursor()
+          ^^^^^^^^^^^^^^^
+AttributeError: 'Engine' object has no attribute 'cursor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_netsuite.py", line 47, in download_and_upsert_F99
+    upsert_data2datalake(df=df, tablename='"NetSuite"."F99_CustomSearch_4532"', primary_key='filename')
+  File "/opt/airflow/plugins/Project/TaraFunction.py", line 268, in upsert_data2datalake
+    raise Exception(f"[Datalake] Lỗi khi ghi dữ liệu vào {tablename}: {e}")
+Exception: [Datalake] Lỗi khi ghi dữ liệu vào "NetSuite"."F99_CustomSearch_4532": 'Engine' object has no attribute 'cursor'
+[2025-06-09T09:18:39.999+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=NetSuite_Daily_ToWarehouse_F99, task_id=Download_And_Upsert_F99, run_id=manual__2025-06-09T09:17:55.374126+00:00, execution_date=20250609T091755, start_date=20250609T091759, end_date=20250609T091839
+[2025-06-09T09:18:40.056+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 383 for task Download_And_Upsert_F99 ([Datalake] Lỗi khi ghi dữ liệu vào "NetSuite"."F99_CustomSearch_4532": 'Engine' object has no attribute 'cursor'; 36)
+[2025-06-09T09:18:40.096+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-06-09T09:18:40.168+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T09:18:40.172+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

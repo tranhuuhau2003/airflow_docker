@@ -1,0 +1,23 @@
+[2025-06-09T09:43:31.784+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-09T09:43:31.816+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Download_And_Upsert_F99 manual__2025-06-09T09:43:27.902033+00:00 [queued]>
+[2025-06-09T09:43:31.823+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NetSuite_Daily_ToWarehouse_F99.Download_And_Upsert_F99 manual__2025-06-09T09:43:27.902033+00:00 [queued]>
+[2025-06-09T09:43:31.824+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-09T09:43:31.842+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): Download_And_Upsert_F99> on 2025-06-09 09:43:27.902033+00:00
+[2025-06-09T09:43:31.849+0000] {standard_task_runner.py:63} INFO - Started process 58 to run task
+[2025-06-09T09:43:31.853+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'NetSuite_Daily_ToWarehouse_F99', 'Download_And_Upsert_F99', 'manual__2025-06-09T09:43:27.902033+00:00', '--job-id', '388', '--raw', '--subdir', 'DAGS_FOLDER/dag_netsuite.py', '--cfg-path', '/tmp/tmputzyltzb']
+[2025-06-09T09:43:31.856+0000] {standard_task_runner.py:91} INFO - Job 388: Subtask Download_And_Upsert_F99
+[2025-06-09T09:43:31.905+0000] {task_command.py:426} INFO - Running <TaskInstance: NetSuite_Daily_ToWarehouse_F99.Download_And_Upsert_F99 manual__2025-06-09T09:43:27.902033+00:00 [running]> on host 87d36d91b2b5
+[2025-06-09T09:43:31.998+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='NetSuite_Daily_ToWarehouse_F99' AIRFLOW_CTX_TASK_ID='Download_And_Upsert_F99' AIRFLOW_CTX_EXECUTION_DATE='2025-06-09T09:43:27.902033+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-09T09:43:27.902033+00:00'
+[2025-06-09T09:43:31.999+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-09T09:44:08.071+0000] {logging_mixin.py:188} INFO - [F99] Preview nội dung: Type,Period,Date,Document Number,Status,Người đề nghị thanh toán,Tara - Approver LV 1,Tara - Approver LV 2,Tara - DNTT Approval Status,TARA - Approval Status,KMP,Memo,Tara _Document_Link,Transaction Type Detail
+Invoice,Dec 2021,31/12/2021,OB21-INV-0042,Paid In Full,,,,,,"6408000 - Các khoản chiết khấu, hỗ trợ trên TOT",Opening Balance Mar 2022,,
+Invoice,Dec 2021,31/12/2021,OB21-INV-0053,Paid In Full,,,,,,"6408000 - Các khoản chiết khấu, hỗ trợ trên TOT",Opening Balance Mar 2022,,
+Invoice,Dec 202
+[2025-06-09T09:44:09.495+0000] {logging_mixin.py:188} INFO - [F99] Số dòng sau khi lọc từ 01/01/2024: 186713
+[2025-06-09T09:44:27.731+0000] {logging_mixin.py:188} INFO - [Datalake] Ghi thành công 186713 dòng vào "NetSuite"."F99_CustomSearch_4532"
+[2025-06-09T09:44:27.798+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-09T09:44:27.799+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-09T09:44:27.808+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=NetSuite_Daily_ToWarehouse_F99, task_id=Download_And_Upsert_F99, run_id=manual__2025-06-09T09:43:27.902033+00:00, execution_date=20250609T094327, start_date=20250609T094331, end_date=20250609T094427
+[2025-06-09T09:44:27.860+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-09T09:44:27.875+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-09T09:44:27.877+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

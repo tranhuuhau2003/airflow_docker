@@ -15,7 +15,6 @@ services:
       interval: 5s
       retries: 5
     restart: always
-  
 
   redis:
     image: redis:latest
@@ -37,6 +36,7 @@ services:
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
       - AIRFLOW__CORE__FERNET_KEY=8CDhxPkPIdJZ3CmewXFbagH0suR9RrFnvcht87f_Nrg=
+      - AIRFLOW__WEBSERVER__SECRET_KEY=ngocduc_airflow_secret_key_2024
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - PYTHONPATH=/opt/airflow:/opt/airflow/web_product_airflow
     volumes:
@@ -66,6 +66,7 @@ services:
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
       - AIRFLOW__CORE__FERNET_KEY=8CDhxPkPIdJZ3CmewXFbagH0suR9RrFnvcht87f_Nrg=
+      - AIRFLOW__WEBSERVER__SECRET_KEY=ngocduc_airflow_secret_key_2024
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - PYTHONPATH=/opt/airflow:/opt/airflow/web_product_airflow
     volumes:
@@ -90,6 +91,7 @@ services:
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
       - AIRFLOW__CORE__FERNET_KEY=8CDhxPkPIdJZ3CmewXFbagH0suR9RrFnvcht87f_Nrg=
+      - AIRFLOW__WEBSERVER__SECRET_KEY=ngocduc_airflow_secret_key_2024
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - PYTHONPATH=/opt/airflow:/opt/airflow/web_product_airflow
     volumes:
