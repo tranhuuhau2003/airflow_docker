@@ -6571,3 +6571,24 @@
 [2025-06-09T10:59:43.973+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:43.973+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-09T10:59:43.985+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:43.985+0000] {dag.py:3954} INFO - Setting next_dagrun for drop_postgres_schema_and_table_dag to None, run_after=None
 [2025-06-09T10:59:44.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drop_my_schema.py took 0.088 seconds
+[2025-06-09T11:00:15.566+0000] {processor.py:161} INFO - Started process (PID=7336) to work on /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:00:15.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drop_my_schema.py for tasks to queue
+[2025-06-09T11:00:15.568+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:00:15.587+0000] {processor.py:840} INFO - DAG(s) 'drop_postgres_schema_and_table_dag' retrieved from /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:00:15.621+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.621+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:00:15.634+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.634+0000] {dag.py:3954} INFO - Setting next_dagrun for drop_postgres_schema_and_table_dag to None, run_after=None
+[2025-06-09T11:00:15.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drop_my_schema.py took 0.092 seconds
+[2025-06-09T11:00:46.107+0000] {processor.py:161} INFO - Started process (PID=7374) to work on /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:00:46.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drop_my_schema.py for tasks to queue
+[2025-06-09T11:00:46.108+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:46.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:00:46.127+0000] {processor.py:840} INFO - DAG(s) 'drop_postgres_schema_and_table_dag' retrieved from /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:00:46.156+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:46.156+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:00:46.168+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:46.168+0000] {dag.py:3954} INFO - Setting next_dagrun for drop_postgres_schema_and_table_dag to None, run_after=None
+[2025-06-09T11:00:46.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drop_my_schema.py took 0.092 seconds
+[2025-06-09T11:01:16.702+0000] {processor.py:161} INFO - Started process (PID=7409) to work on /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:01:16.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drop_my_schema.py for tasks to queue
+[2025-06-09T11:01:16.704+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:16.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:01:16.723+0000] {processor.py:840} INFO - DAG(s) 'drop_postgres_schema_and_table_dag' retrieved from /opt/airflow/dags/drop_my_schema.py
+[2025-06-09T11:01:16.752+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:16.751+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:01:16.860+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:16.860+0000] {dag.py:3954} INFO - Setting next_dagrun for drop_postgres_schema_and_table_dag to None, run_after=None
+[2025-06-09T11:01:16.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drop_my_schema.py took 0.181 seconds

@@ -6571,3 +6571,24 @@
 [2025-06-09T10:59:43.893+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:43.893+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-09T10:59:43.906+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:43.906+0000] {dag.py:3954} INFO - Setting next_dagrun for test_postgres_create_table_and_read_dag to None, run_after=None
 [2025-06-09T10:59:43.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_postgres_conn_and_create_table.py took 0.105 seconds
+[2025-06-09T11:00:15.323+0000] {processor.py:161} INFO - Started process (PID=7335) to work on /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:00:15.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_postgres_conn_and_create_table.py for tasks to queue
+[2025-06-09T11:00:15.325+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:00:15.369+0000] {processor.py:840} INFO - DAG(s) 'test_postgres_create_table_and_read_dag' retrieved from /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:00:15.429+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:00:15.449+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.449+0000] {dag.py:3954} INFO - Setting next_dagrun for test_postgres_create_table_and_read_dag to None, run_after=None
+[2025-06-09T11:00:15.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_postgres_conn_and_create_table.py took 0.203 seconds
+[2025-06-09T11:00:45.976+0000] {processor.py:161} INFO - Started process (PID=7373) to work on /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:00:45.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_postgres_conn_and_create_table.py for tasks to queue
+[2025-06-09T11:00:45.979+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:45.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:00:46.006+0000] {processor.py:840} INFO - DAG(s) 'test_postgres_create_table_and_read_dag' retrieved from /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:00:46.039+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:46.038+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:00:46.051+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:46.051+0000] {dag.py:3954} INFO - Setting next_dagrun for test_postgres_create_table_and_read_dag to None, run_after=None
+[2025-06-09T11:00:46.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_postgres_conn_and_create_table.py took 0.102 seconds
+[2025-06-09T11:01:16.477+0000] {processor.py:161} INFO - Started process (PID=7408) to work on /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:01:16.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_postgres_conn_and_create_table.py for tasks to queue
+[2025-06-09T11:01:16.479+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:16.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:01:16.501+0000] {processor.py:840} INFO - DAG(s) 'test_postgres_create_table_and_read_dag' retrieved from /opt/airflow/dags/test_postgres_conn_and_create_table.py
+[2025-06-09T11:01:16.532+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:16.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:01:16.664+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:16.664+0000] {dag.py:3954} INFO - Setting next_dagrun for test_postgres_create_table_and_read_dag to None, run_after=None
+[2025-06-09T11:01:16.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_postgres_conn_and_create_table.py took 0.217 seconds

@@ -3410,3 +3410,24 @@ DETAIL:  Key (dag_id)=(netsuite_saved_search_4532_memory) already exists.
 [2025-06-09T10:59:43.713+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:43.713+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-09T10:59:43.738+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:43.738+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532_memory to 2025-06-09T00:00:00+00:00, run_after=2025-06-10T00:00:00+00:00
 [2025-06-09T10:59:43.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_4532_dag.py took 0.677 seconds
+[2025-06-09T11:00:14.677+0000] {processor.py:161} INFO - Started process (PID=7328) to work on /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:00:14.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_4532_dag.py for tasks to queue
+[2025-06-09T11:00:14.679+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:14.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:00:15.514+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532_memory' retrieved from /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:00:15.548+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.547+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:00:15.576+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.575+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532_memory to 2025-06-09T00:00:00+00:00, run_after=2025-06-10T00:00:00+00:00
+[2025-06-09T11:00:15.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_4532_dag.py took 0.931 seconds
+[2025-06-09T11:00:45.806+0000] {processor.py:161} INFO - Started process (PID=7368) to work on /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:00:45.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_4532_dag.py for tasks to queue
+[2025-06-09T11:00:45.809+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:45.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:00:46.370+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532_memory' retrieved from /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:00:46.393+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:46.393+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:00:46.411+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:46.411+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532_memory to 2025-06-09T00:00:00+00:00, run_after=2025-06-10T00:00:00+00:00
+[2025-06-09T11:00:46.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_4532_dag.py took 0.630 seconds
+[2025-06-09T11:01:16.727+0000] {processor.py:161} INFO - Started process (PID=7410) to work on /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:01:16.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/netsuite_4532_dag.py for tasks to queue
+[2025-06-09T11:01:16.728+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:16.728+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:01:17.214+0000] {processor.py:840} INFO - DAG(s) 'netsuite_saved_search_4532_memory' retrieved from /opt/airflow/dags/netsuite_4532_dag.py
+[2025-06-09T11:01:17.237+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:17.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T11:01:17.256+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:17.255+0000] {dag.py:3954} INFO - Setting next_dagrun for netsuite_saved_search_4532_memory to 2025-06-09T00:00:00+00:00, run_after=2025-06-10T00:00:00+00:00
+[2025-06-09T11:01:17.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/netsuite_4532_dag.py took 0.555 seconds

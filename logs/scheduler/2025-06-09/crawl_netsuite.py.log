@@ -4251,3 +4251,18 @@
 [2025-06-09T10:59:43.758+0000] {logging_mixin.py:188} INFO - [2025-06-09T10:59:43.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_netsuite.py
 [2025-06-09T10:59:43.771+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/crawl_netsuite.py
 [2025-06-09T10:59:43.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/crawl_netsuite.py took 0.037 seconds
+[2025-06-09T11:00:15.044+0000] {processor.py:161} INFO - Started process (PID=7333) to work on /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:00:15.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/crawl_netsuite.py for tasks to queue
+[2025-06-09T11:00:15.047+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:15.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:00:15.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:00:15.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/crawl_netsuite.py took 0.065 seconds
+[2025-06-09T11:00:45.204+0000] {processor.py:161} INFO - Started process (PID=7363) to work on /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:00:45.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/crawl_netsuite.py for tasks to queue
+[2025-06-09T11:00:45.208+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:00:45.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:00:45.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:00:45.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/crawl_netsuite.py took 0.043 seconds
+[2025-06-09T11:01:15.754+0000] {processor.py:161} INFO - Started process (PID=7401) to work on /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:01:15.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/crawl_netsuite.py for tasks to queue
+[2025-06-09T11:01:15.756+0000] {logging_mixin.py:188} INFO - [2025-06-09T11:01:15.756+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:01:15.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/crawl_netsuite.py
+[2025-06-09T11:01:15.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/crawl_netsuite.py took 0.041 seconds
